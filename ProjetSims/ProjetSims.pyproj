@@ -22,7 +22,22 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Fourmiliere.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Larve.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Male.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ProjetSims.py" />
+    <Compile Include="Reine.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Travailleur.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
